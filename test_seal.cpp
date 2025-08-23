@@ -9,6 +9,12 @@ int main() {
               << version.minor << "." 
               << version.patch << std::endl;
     
+
+    std::cout << "Microsoft SEAL is working!" << std::endl;
+    // 간단한 SEAL 기능 테스트
+    seal::EncryptionParameters parms(seal::scheme_type::bfv);
+    std::cout << "SEAL BFV scheme initialized successfully!" << std::endl;
+
     return 0;
 }
 
