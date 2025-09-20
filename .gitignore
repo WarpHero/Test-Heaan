@@ -1,0 +1,15 @@
+# Seal 실행파일
+*
+!*/
+!*.*
+!*.seal
+!*.md
+!Makefile
+!LICENSE
+!README*
+
+# 빌드 결과물
+*.o
+*.so
+*.a
+/build/
